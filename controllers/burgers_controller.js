@@ -15,7 +15,7 @@ var model = require("../models/burger.js");
 // Creating Route for index page (html routes) - using placeholder html file until I set up handlebars
 
   app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "../views/index.html"));
+    res.render("index");
   });
 
 
